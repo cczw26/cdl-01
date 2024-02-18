@@ -19,9 +19,9 @@ var config = {
             id: 'first-container',
             alignment: 'center',
             hidden: false,
-            title: 'Hawker Centers',
-            image: '../image/SG_Hawker_1.jpg',
-            description: "Hawker centers have long been ingrained in Singapore's urban fabric, serving as vital communal spaces where residents from all walks of life gather to indulge in affordable and diverse culinary offerings. These vibrant hubs not only showcase Singapore's rich food heritage but also embody the nation's commitment to inclusivity and multiculturalism. Designed to cater to the diverse palates of Singaporeans, hawker centers are meticulously planned to ensure a harmonious blend of Malay, Indian, and Chinese cuisines, with separate provisions made for halal and non-halal food stalls. Moreover, the ongoing maintenance and development of these centers underscore their enduring significance in meeting the evolving needs of the populace.",
+            title: 'Introduction to Hawker Centers in SG',
+            image: './image/SG_Hawker_1.jpg',
+            description: "Hawker centers have long been ingrained in Singapore's urban fabric, serving as vital communal gathering spaces, as well as providing affordable and accessible food sources for all. These vibrant hubs not only showcase Singapore's rich food heritage, but also embody the nation's commitment to inclusivity and multiculturalism in ensuring diverse culinary offerings. In light of GST increase and higher living costs, such spaces are becoming more important especially for low-income households. Through a spatial lens, this series of maps thus seeks to understand the importance of hawker centers to different stakeholders, represented by the different kinds of datasets used.",
             location: {
                 center: [103.78768, 1.35797],
                 zoom: 10.85,
@@ -83,7 +83,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Hawker Distribution & Housing Prices',
-            image: './path/to/image/source.png',
+           
             description: "Examining the choropleth map alongside the distribution of hawker centers reveals intriguing urban patterns and potential trends. Firstly, while areas such as Bukit Merah located near the Central Business District boasts a high concentration of hawker centers, the correlation between hawker center numbers and housing prices appears nuanced. Planning areas like Bedok, Ang Mo Kio, and Geylang exhibit substantial hawker counts but display significant variations in average housing prices. This discrepancy suggests that factors beyond the presence of hawker centers may influence housing prices, while also acknowledging the potential impact of gentrification that may affect the affordability of food prices in the future.",
             location: {
                 center: [103.78768, 1.35797],
@@ -230,7 +230,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Qualitative Insights on Quality Food in Bedok',
-            image: '../image/East-Coast-lagoon.jpg',
+            image: './image/East-Coast-lagoon.jpg',
             description: 'Leveraging on Google Reviews where visitors share personal insights and experiences, the ratings (out of 5) represent a composite of subjective factors such as taste, atmosphere and cost. Given the overall high ratings that is consistent across all the hawkers, this provides qualitative insight into how well-loved and patronised these hawker centers are by fellow Singaporeans, in spite of its less-than-ideal central location that may be a deterrent for some.',
             location: {
                 center: [103.92606, 1.31947],
