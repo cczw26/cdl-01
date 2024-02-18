@@ -13,7 +13,7 @@ var config = {
     title: 'Hawker Centers in Singapore',
     subtitle: "How important are Hawker Centres in Singapore, really?",
     byline: "From a planner's perspective to your local foodie on the street",
-    footer: 'Source: HDB and URA.',
+    footer: 'Source: HDB, URA and NEA.',
     chapters: [
         {
             id: 'first-container',
